@@ -1,0 +1,62 @@
+:root{
+    --color-primary:#2196F3;
+    --color-title:#212121;
+    --color-description:#757575;
+    --font-primary: "Roboto", Arial, Helvetica, sans-serif;
+    --font-secondary: "Raleway", Arial, Helvetica, sans-serif;
+}
+
+body{
+    font-family: var(--font-primary);
+    color: var(--color-description);
+    margin: 0;
+    padding: 0;
+}
+
+.logo p {
+    color: #000;
+    font-family: var(--font-secondary);
+    font-size: 1.5rem;
+}
+
+.logo p span{
+    color: var(--color-primary);
+}
+
+a{
+    text-decoration: none;
+    font-size: 1rem;
+    font-weight: 500;
+}
+
+/* Header */
+.header{
+    width: 100rem;
+    height: 5rem;
+}
+
+.header__link{
+    text-decoration: none;
+    color: var(--color-title);
+}
+
+.header__contact a{
+    color: var(--color-description);
+    text-decoration: none;
+}
+/* Main */
+/* Hero section */
+.hero-section{
+    width: 100rem;
+    height: 37.5rem;
+    background-color: #2F303A;
+}
+
+.hero-section__title{
+    font-size: 2.8rem;
+    font-weight: 900;
+    color: #fff;
+}
+
+
+
